@@ -49,12 +49,13 @@ img{
     line-height: 30px;
 }
 .headersignup{
-    background-color: #3882f6;
-    border: 10px solid #3882f6;
-    border-radius: 10px;
+    background-color:#3882f6 ;
+    border: 2px solid #3882f6;
+    border-radius: 7px;
+    color: white;
     font-weight: bold;
-color: white;
-    
+    width: 90px;
+    padding: 3px;
     
     
 }
@@ -114,3 +115,38 @@ h2{
     font-size: 30px;
     color: #1f2937;
 }
+.bottomcontainer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calltoactionbox{
+    display: flex;
+    width: 700px;
+    background-color:#3882f6 ;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    
+
+}
+.adlol1{
+    color: white;
+    font-weight: bolder;
+
+}
+.adlol2{
+    color: #d3d3d3;
+    font-size: 13px;
+}
+.bottomsignupbutton{
+    background-color:#3882f6 ;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+    
+}
+
