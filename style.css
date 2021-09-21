@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap');
+
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 400px;
+}
+.headnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo{
+    margin-right: auto;
+    margin-left: -40px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 30px;
+    color: #f9faf8;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+ul{
+    list-style-type: none;
+    gap: 10px;
+}
+.headerinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+img{
+    width: 300px;
+    height: 150px;
+    display: inline;
+}
+.leftheadercontent{
+    line-height: 30px;
+}
+.headersignup{
+    background-color: #3882f6;
+    border: 10px solid #3882f6;
+    border-radius: 10px;
+    font-weight: bold;
+color: white;
+    
+    
+    
+}
+h1{
+    font-size: 40px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+.herosectext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    text-align: center;
+}
+.midcontainer-images{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #1f2937;
+    
+    
+}
+.midcontainer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.midcontainertext{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.underpictext{
+    font-size: 18px;
+    color: #656669;  
+    
+}
+.quotecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color:#e5e7eb;
+}
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteby{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1f2937;
+}
